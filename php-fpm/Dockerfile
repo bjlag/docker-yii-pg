@@ -11,6 +11,9 @@ RUN apt-get update && apt-get install -y \
         libpq-dev \
         libmemcached-dev \
         libmagickwand-dev --no-install-recommends \
+        zip \
+        unzip \
+        git \
 
     && pecl install \
         xdebug-$XDEBUG_VER \
